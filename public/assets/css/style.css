@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: #888;
+}
+
+.input-group input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.login-btn {
+    background: #00c853;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background: #009624;
+}
+
+/* Untuk layar tablet */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+    .service-grid, .special-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Untuk layar HP */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .search-bar {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .service-grid, .special-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Untuk layar HP kecil */
+@media (max-width: 480px) {
+    .service-grid, .special-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

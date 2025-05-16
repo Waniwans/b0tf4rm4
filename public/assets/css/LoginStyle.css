@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    position: relative;
+}
+
+.container img {
+    width: 80px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: gray;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.social-buttons button i {
+    margin-right: 10px;
+}
+
+.register-container {
+    width: 400px;
+}
+
+.register-container .input-group {
+    margin: 10px 0;
+}
+
+.register-container .social-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-container .social-buttons button {
+    flex: 1;
+    margin: 5px;
+}
+
+.register-container p {
+    margin-top: 15px;
+}
+
+.register-container p a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-container p a:hover {
+    text-decoration: underline;
+}
+
+
+

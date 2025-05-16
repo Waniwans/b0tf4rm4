@@ -1,0 +1,93 @@
+/* landing.css */
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #444;
+}
+
+/* Card Shadows */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+
+/* Headings */
+h2, h3, h4, h5 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+    font-weight: 600;
+    color: #555;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #007bff;
+    border-color: #007bff #007bff #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Scrollable tab content */
+.tab-content {
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #e0e0e0;
+}
+
+.tab-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.tab-content::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+}
+
+/* Responsive image */
+.card-img-top {
+    object-fit: cover;
+    max-height: 300px;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #007bff !important;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Misc */
+.text-muted {
+    font-size: 0.9rem;
+}
+
+/* Add margin below each card */
+.card + .card {
+    margin-top: 20px;
+}

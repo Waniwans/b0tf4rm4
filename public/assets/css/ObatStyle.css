@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #00C853;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header h1 {
+    flex: 1;
+    margin: 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.back-button {
+    position: absolute;
+    left: 1rem;
+    background-color: white;
+    color: #0d6efd;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.all-obat {
+    padding: 1rem;
+}
+
+.obat-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+.promo {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.2s;
+}
+
+.promo:hover {
+    transform: translateY(-4px);
+}
+
+.promo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.promo p {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 0;
+}
+.back-button {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button img {
+    width: 24px;
+    height: 24px;
+}
