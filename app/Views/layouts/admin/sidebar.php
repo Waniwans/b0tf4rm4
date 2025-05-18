@@ -54,12 +54,6 @@
               </a>
             </li>
           </ul>
-            <li class="nav-item">
-              <a href="<?= base_url('admin/chatbot') ?>" class="nav-link <?= uri_string() === 'admin/chatbot' ? 'active' : '' ?>">
-                <i class="nav-icon fas fa-robot"></i>
-                <p>Chatbot</p>
-              </a>
-            </li>
         </li>
       </ul>
     </nav>
